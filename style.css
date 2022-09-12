@@ -1,8 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
+.navbar-nav .nav-item{
+    margin-right: 1rem;
+    color: #fff;
+}
+
 .card-img-top{
     max-width: 100%;
     max-height: 200px;
@@ -16,4 +21,8 @@ footer{
     font-size: 10px;
     text-align: center;
     padding-top: 15px;
+}
+
+#portfolio h2{
+    text-align: center;
 }
